@@ -1,0 +1,122 @@
+===========================================
+BANK CHURN PREDICTION - COMMAND CHEAT SHEET
+===========================================
+
+📦 INSTALL DEPENDENCIES
+------------------------
+cd "/Users/sonuyadav/Desktop/Prime folder/Bank_Project"
+pip install -r requirements.txt
+
+
+🤖 TRAIN MODEL
+--------------
+python train_model.py
+
+
+🖥️  RUN APP LOCALLY
+-------------------
+streamlit run app.py
+
+
+🔧 GIT SETUP
+------------
+# Initialize (first time only)
+git init
+
+# Add files
+git add .
+
+# Commit
+git commit -m "Initial commit"
+
+# Connect to GitHub
+git remote add origin https://github.com/YOUR_USERNAME/bank-churn-prediction.git
+
+# Push
+git branch -M main
+git push -u origin main
+
+
+🔄 UPDATE & REDEPLOY
+--------------------
+# After making changes
+git add .
+git commit -m "Updated app"
+git push
+
+# Streamlit Cloud auto-deploys!
+
+
+🌐 DEPLOYMENT LINKS
+-------------------
+Streamlit Cloud: https://share.streamlit.io/
+GitHub: https://github.com/
+GitHub Tokens: https://github.com/settings/tokens
+
+
+📋 QUICK CHECKLIST
+------------------
+□ Install packages
+□ Train model (creates model.pkl & scaler.pkl)
+□ Test locally
+□ Push to GitHub
+□ Deploy on Streamlit Cloud
+□ Test deployed app
+□ Share URL
+
+
+🎯 YOUR APP URL
+---------------
+After deployment, your URL will be:
+https://YOUR_USERNAME-bank-churn-prediction-app-XXXXX.streamlit.app
+
+Write it here: _______________________________________
+
+
+🆘 TROUBLESHOOTING
+-----------------
+Problem: ModuleNotFoundError
+→ Run: pip install -r requirements.txt
+
+Problem: Model not found
+→ Run: python train_model.py
+
+Problem: Git push fails
+→ Use Personal Access Token instead of password
+
+Problem: Streamlit won't deploy
+→ Check model.pkl and scaler.pkl are in GitHub repo
+
+
+💻 USEFUL COMMANDS
+------------------
+# Check if model files exist
+ls -la *.pkl
+
+# View Git status
+git status
+
+# See Git remote
+git remote -v
+
+# Check Python version
+python --version
+
+# List installed packages
+pip list
+
+# Stop Streamlit
+Ctrl + C (in terminal)
+
+
+📚 DOCUMENTATION
+---------------
+START_HERE.md         → Beginner-friendly start
+DEPLOYMENT_GUIDE.md   → Detailed deployment steps  
+PROJECT_SUMMARY.md    → What we built
+README.md             → Full documentation
+
+
+===========================================
+COPY THESE COMMANDS AS NEEDED!
+===========================================
